@@ -6,10 +6,9 @@ using System.Threading.Tasks;
 
 namespace OOP.Interfaces
 {
-	interface ITransactions
+	interface IShape
 	{
+		void Area();
 		void Show();
-		double GetAmount();
-		void Print();
 	}
 }

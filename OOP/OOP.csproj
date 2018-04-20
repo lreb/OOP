@@ -42,7 +42,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Classes\Rectangle.cs" />
+    <Compile Include="Classes\Square.cs" />
     <Compile Include="Classes\Transaction.cs" />
+    <Compile Include="Interfaces\IShape.cs" />
     <Compile Include="Interfaces\ITransactions.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

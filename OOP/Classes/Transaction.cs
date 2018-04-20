@@ -23,9 +23,14 @@ namespace OOP.Classes
 			return this.Amount;
 		}
 
+		public void Print()
+		{
+			throw new NotImplementedException();
+		}
+
 		public void Show()
 		{
-			Console.Write("Code: {0} \n Amount: ${1}", this.Code, this.Amount);
+			Console.Write("\n\tCode: {0} \n\t Amount: ${1}", this.Code, this.Amount);
 		}
 	}
 }
